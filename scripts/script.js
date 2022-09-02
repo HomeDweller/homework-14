@@ -14,23 +14,23 @@ alert(a + b);
 */
 //task 3
 /*
-let gigabytes = +prompt();
+let gigabytes = +prompt("Вкажіть обсяг флешки (в гігабайтах)");
 let megabytes = gigabytes * 1024;
-alert(megabytes / 820);
+alert("На флешці помістяться " + megabytes / 820 + " файлів");
 */
 //task 4
 /*
-let money = +prompt();
-let price = +prompt();
+let money = +prompt("Вкажіть кількість грошей");
+let price = +prompt("Вкажіть ціну однієї шоколадки");
 let candies = money / price;
 let remainder = money % price;
-alert(Math.floor(candies));
-alert(remainder);
+alert("Ви купите " + Math.floor(candies) + "шоколадок");
+alert("У вас залишиться " + remainder + " гривень");
 */
 //task 5
 /*
 let rev = 0;
-let num = +prompt();
+let num = +prompt("Вкажіть тризначне число");
 let lastDigit;
 
 while (num != 0) {
@@ -40,8 +40,10 @@ while (num != 0) {
 }
 alert(+rev);*/
 //task 6
-let deposit = +prompt();
+/*
+let deposit = +prompt("Введіть суму вкладу в банк");
 let percent = deposit / 100;
 let monthPercent = 5 * percent / 12;
 let take = deposit + 2 * monthPercent;
-alert(take);
+alert("Через два місяці, ви зможете забрати " + take + " гривень");
+*/
